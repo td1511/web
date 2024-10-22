@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    top:0;
+}
+.head_1{
+    margin: 0;
+    background-image: url(d2.jpg);
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: snow;
+    height: 490px;
+    margin-bottom: 40px;
+}
+.head_2{
+  margin: 0;
+  background-image: url(d2.jpg);
+  width:100%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: snow;
+  height:100%;
+ 
+}
+.container-fluid{
+    width: 100%;
+    widows: 100%;/*khong hieu*/
+  }
+  .row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap:wrap ;
+  }
+  .full{
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .center-desk{
+    margin: 0;
+  }
+  .logo{
+    text-align: center;
+    margin-left: 0px;
+    
+  }
+  .logo img{
+    width:250px;
+  }
+  .col-lg-9{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+    -ms-flex:0 0 80%;
+    flex:0 0 80%;
+    max-width:100%;
+    top:20px;
+  }
+  .menu-area{
+    position: relative;
+    float: right;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .limint-box{
+    margin:0 0;
+  }
+  ul,li{
+    margin: 0;
+    list-style: none;
+  }
+  .main-menu{
+    text-align: center;
+  }
+  .main-menu ul{
+    margin: 0;
+    list-style-type: none;
+  }
+  .main-menu ul>li{ 
+    display: inline;
+    position: relative;
+    
+  }
+  .main-menu>ul>li{
+    position: inherit;
+    display: inline-block;
+    vertical-align:middle;
+    background-color: royalblue;
+  }
+  .main-menu ul.menu-area-main li{
+    margin: 0 ;
+  }
+ .search
+  {
+    margin-top: 0px!important;
+  }
+  .search input{
+    width: 800px;
+    height: 40px;
+   
+  }
+  .search input:focus{
+   background-color: brown;
+
+  }
+ .search a{
+    background-color:black ;
+    margin: 0px;
+    height: 100%;
+    color: black;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  .main-menu ul>li a{
+    padding :5px 5px;
+    margin: 0;
+    font-size: 15px;
+    line-height:70px ;
+    text-transform: none;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color:white;
+    font-family: 'Times New Roman';
+  }
+  .menu-area-main li a:hover{
+    color:black;
+    
+  }
+  .main-menu ul.menu-area-main li{
+    margin: 0;
+  }
+  .dt{
+    margin-left: 1%;
+    font-size:20px;
+    color:black;
+    position: fixed;
+    top:100px;
+    
+  }
+  .free {
+    color:black;
+    font-weight:bolder;
+    font-size: 40px;
+    margin-left: 38%;
+    /* neu cho nay de la text-align :center thi chi co phan chu di chuyen ra giua con phan ki hieu o dau thi khong*/
+  }
+  .free_1>ul>li {
+    margin-left: 40%;
+    position: relative;
+    list-style-type: square;
+    color:black;
+    font-weight:bolder;
+    font-size: 20px;
+  }
+  .square{
+    border: 1px solid ;
+    background-color: black;
+    font-size: 20px;
+    color:white;
+    position: relative;
+    margin-left: 30%;
+    width:180px;
+    height: 60px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .square .chu {
+    font-size: 20px;
+    
+    margin-top:15px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+   
+  }
+  .square .chu a{
+    text-decoration: none;
+    color:white;
+  }
+  .head_2 img{
+    position: relative;
+    position: fixed;
+    top:200px;
+  }

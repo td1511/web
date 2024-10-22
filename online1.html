@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        body {
+   padding: 2%;
+   text-align: center;
+ }
+#slideshow {
+   overflow: hidden;
+   height: 510px;
+   width: 728px;
+   margin: 0 auto;
+ }
+.slide-wrapper {
+   width: 1000px;
+   animation: slide 14s ease infinite;
+ }
+.slide {
+   float: left;
+   height: 510px;
+   width: 728px;
+ }
+@keyframes slide {
+   20% {margin-left: 0px;}
+   30% {margin-left: -728px;}
+   50% {margin-left: -728px;}
+   60% {margin-left: -1456px;}
+   80% {margin-left: -1456px;}
+ }
+        </style>
+    </head>
+    <body>
+        <h3>Tạo slideshow bằng HTML Và CSS</h3>
+ <div id="slideshow">
+   <div class="slide-wrapper">
+     <div class="slide"><img src="https://images.pexels.com/photos/2382325/pexels-photo-2382325.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></div>
+     <div class="slide"><img src="https://images.pexels.com/photos/3578393/pexels-photo-3578393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></div>
+     <div class="slide"><img src="https://images.pexels.com/photos/4484184/pexels-photo-4484184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></div>
+   </div>
+ </div>
+    </body>
+</html>

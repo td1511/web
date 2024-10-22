@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    background-image: url(1.jpg);
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: snow;
+  
+}
+
+.online{
+    width: 300px;
+    height: 350px;
+    background-color: cornsilk;
+    opacity: 0.6;
+    top:160px;
+    position: relative;
+    text-align: center;
+    color: black;
+    border-radius: 15px;
+    z-index: 100000;
+    line-height: 30px;
+    margin-right: 200px;
+    left: 45px;
+}
+#logo {
+  position: relative;
+  width: 50px;
+  height: 150px;
+  top:0;
+  left: 100px;
+  z-index:0;
+}
+#logo img{
+    width: 400px;
+    height: 350px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    z-index:0;
+    
+}
+#slideshow {
+   overflow: hidden;
+    height: 600px;
+    width: 728px;
+    margin: 0px ;
+  }
+ .slide-wrapper {
+    width: 1456px;
+    animation: slide 14s ease infinite;
+  }
+ .slide {
+    float: left;
+    height: 720px;
+    width: 728px;
+  }
+.check{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.one{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.one:hover{
+  background-color: yellowgreen;
+}
+.one a,.three a{
+  text-decoration: none;
+}
+.two a{
+  text-decoration: none;
+  border-bottom: 1px dashed black;
+}
+.online p{
+  text-align: center;
+}
+.online *{
+  font-weight: 900;
+}
+ @keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    80% {margin-left: -1456px;}
+  }
+  
